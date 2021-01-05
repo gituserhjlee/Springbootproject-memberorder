@@ -22,8 +22,6 @@ public class Delivery {
 
     @Enumerated(EnumType.STRING) //순서 밀릴때 오류 안나게 꼭 스트링으로쓰자
     private DeliveryStatus status;
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> e8d7ca10d5be7b00d94cf4b615b5199542d8bd70
+

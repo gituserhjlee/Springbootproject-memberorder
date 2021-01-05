@@ -3,11 +3,6 @@ package jpabook.jpashop.service;
 import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
-<<<<<<< HEAD
-=======
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Required;
->>>>>>> e8d7ca10d5be7b00d94cf4b615b5199542d8bd70
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
