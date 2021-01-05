@@ -24,8 +24,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-devtools'
+<<<<<<< HEAD
     implementation 'org.projectlombok:lombok:1.18.16'
 	implementation 'org.projectlombok:lombok:1.18.16'
+=======
+	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.6'
+>>>>>>> e8d7ca10d5be7b00d94cf4b615b5199542d8bd70
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
