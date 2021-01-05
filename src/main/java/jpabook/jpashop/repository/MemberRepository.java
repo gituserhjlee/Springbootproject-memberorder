@@ -29,8 +29,8 @@ public class MemberRepository {
                 .setParameter("name",name)
                 .getResultList();
     }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> e8d7ca10d5be7b00d94cf4b615b5199542d8bd70
+
+
+
