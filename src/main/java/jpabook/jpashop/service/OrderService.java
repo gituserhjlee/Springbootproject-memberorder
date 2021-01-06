@@ -24,7 +24,7 @@ public class OrderService {
     public Long order(Long memberId, Long itemId, int count){
         //엔터티 조회
         Member member=memberRepository.findOne(memberId);
-        Item item=itemRepository.fineOne(itemId);
+        Item item=itemRepository.findOne(itemId);
         //배송정보 생성
         Delivery delivery=new Delivery();
         delivery.setAddress(member.getAddress());

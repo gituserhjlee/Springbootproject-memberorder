@@ -19,7 +19,7 @@ public class ItemRepository {
             em.merge(item);//업데이트같은개념
         }
     }
-    public Item fineOne(Long id){
+    public Item findOne(Long id) {
         return em.find(Item.class, id);
     }
     public List<Item> findAll(){
