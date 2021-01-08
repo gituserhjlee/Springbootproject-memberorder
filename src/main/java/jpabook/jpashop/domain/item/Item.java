@@ -14,6 +14,7 @@ import java.util.List;
 @DiscriminatorColumn(name="dtype") //저장할때 구분되려고
 @Getter @Setter
 public abstract class Item {
+
     @Id
     @GeneratedValue
     @Column(name="item_id")
@@ -43,5 +44,11 @@ public abstract class Item {
         }
         this.stockQuantity=restStock;
 
+    }
+
+    public void change(Item item,String name, int price, int stockQuantity) {
+        item.setPrice(price);
+        item.setName(name);
+        item.setStockQuantity(stockQuantity);
     }
 }
